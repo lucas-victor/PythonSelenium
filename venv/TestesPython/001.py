@@ -30,6 +30,7 @@ email.send_keys('teste@gmail.com')
 senha = driver.find_element_by_name('senha')
 senha.send_keys('123456')
 
+##faltando encontrar o botão.
 btnCadastrar = driver.find_element_by_tag_name('input')
 btnCadastrar.click()
 
